@@ -53,13 +53,19 @@ Here are the prerequisites in order to run the script:
  - [ ] Cross-env v7.1.3 or latest (will automatically be installed using the package.json file)
  - [ ] Form Data v4.0.1 or latest (will automatically be installed using the package.json file)
 
+ Another important prerequisite in order for us to run the script is to have the Best Buy API Playground app running in the background. This can be achieved by the following steps.
+
+ 1. Install NodeJS on your system. You can download the latest version from the official website: https://nodejs.org/en/download/.
+ 2. Open the installer and follow the prompts to install the Node.js. By default, the installer uses the Node.js distribution in C:\Program Files\nodejs. The installer should set the C:\Program Files\nodejs\bin directory in Window's PATH environment variable. Restart any open command prompts for the change to take effect.
+ 3. Verify installation is successful by running `node -v` in command line, verify npm is also available by running `npm -v`in the command line as well. Both should show their respective versions.
+
 ## How to run the API Automation Test
 
-Please see below the step-by-step procedure for fetching the API Automation Test for Best Buy API Playground script from GitHub, installing the necessary requirements, and running the script using the command line:
+Please see below the step-by-step procedure for fetching the API Automation Test suite for PetStore from GitHub, installing the necessary requirements, and running the script using the command line:
 
 1. Open a command prompt or terminal window and navigate to the directory where you want to store the script.
-2. Use the command `git clone` followed by the repository url to fetch the script from GitHub, for example: `https://github.com/chanosky/ServiceModuleAPITest.git` or just download the repository to your desired location.
-3. Navigate into the cloned repository by using the command `cd yourrepository` (make sure you are in the `/ServiceModuleAPITest` folder.)
+2. Use the command `git clone` followed by the repository url to fetch the script from GitHub, for example: `https://github.com/chanosky/PetCircleExam.git` or just download the repository to your desired location.
+3. Navigate into the cloned repository (make sure you are in the `/PetCircleExamTests` folder.)
 4. Install the necessary requirements by running the command `npm install`
 5. The test has multiple ways to run the automation tests, see commands below:
 
