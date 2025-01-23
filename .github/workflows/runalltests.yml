@@ -1,0 +1,30 @@
+name: PetStore API Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  api_tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js (if using Node.js)
+        uses: actions/setup-node@v2
+        with:
+          node-version: '22.13.0'  # Use the Node.js version you need
+
+      - name: Install dependencies
+        run: |
+          npm install   # Adjust if you're using another package manager (e.g., yarn)
+
+      - name: Run API Tests
+        run: |
+          npm run alltests  # Replace with your specific test command
