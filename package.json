@@ -1,0 +1,29 @@
+{
+  "name": "petcircleexam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "alltests": "cross-env mocha --no-timeout 'PetCircleExamTests/*.js' --reporter mochawesome",
+    "smoketests": "cross-env mocha --no-timeout --tags is:smoke 'PetCircleExamTests/*.js' --reporter mochawesome",
+    "createtests": "cross-env mocha --no-timeout --tags is:Create 'PetCircleExamTests/*.js' --reporter mochawesome",
+    "readtests": "cross-env mocha --no-timeout --tags is:Read 'PetCircleExamTests/*.js' --reporter mochawesome",
+    "deletetests": "cross-env mocha --no-timeout --tags is:Delete 'PetCircleExamTests/*.js' --reporter mochawesome",
+    "updatetests": "cross-env mocha --no-timeout --tags is:Update 'PetCircleExamTests/*.js' --reporter mochawesome",
+    "updateformtests": "cross-env mocha --no-timeout --tags is:UpdateForm 'PetCircleExamTests/*.js' --reporter mochawesome",
+    "uploadimagetests": "cross-env mocha --no-timeout --tags is:UploadImage 'PetCircleExamTests/*.js' --reporter mochawesome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "chai": "^5.1.2",
+    "cross-env": "^7.0.3",
+    "form-data": "^4.0.1",
+    "mocha-tags": "^1.0.1",
+    "mocha": "^11.1.0",
+    "mochawesome": "^7.1.3"
+    
+  }
+}
