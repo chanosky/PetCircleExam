@@ -89,7 +89,7 @@ This script has the following limitations:
 
 1. The script has only been tested on a Windows 11 operating system. There may be compatibility issues when running the script on other operating systems such as MacOS, Linux, etc. 
        
-2. CI/CD for this script was not yet set up.
+2. CI/CD for this script was not yet set up. But I built a basic github actions workflow.
     
 It is important to keep these limitations in mind when using this script and to thoroughly test the script on different operating systems before using it.
 
