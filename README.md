@@ -1,4 +1,4 @@
-# API Automation Test for Best Buy API Playground
+# API Automation Test for Petstore App
 
 *This API Automation script uses the Mocha Framework, Chai.js and Axios to automate the PetStore app - this only includes the PET endpoints excluding the GET /pet/findByTags endpoint* 
 
